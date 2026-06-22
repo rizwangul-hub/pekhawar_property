@@ -1,0 +1,6 @@
+{
+  "name": "Pekhawar Property Dealer",
+  "description": "Premium real estate agency in Peshawar, Pakistan. Buying, selling, renting, and luxury investment consultancy on University Road, Peshawar with a tradition of trust.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
