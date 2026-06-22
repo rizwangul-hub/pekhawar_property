@@ -68,11 +68,11 @@ export default function FloatingWhatsApp() {
 
         <button
           onClick={handleWhatsAppClick}
-          className="bg-[#25D366] hover:bg-[#20ba56] text-white p-3.5 rounded-full shadow-2xl transition-all duration-300 flex items-center justify-center hover:scale-110 active:scale-95 relative group"
+          className="bg-[#25D366] hover:bg-[#20ba56] text-white p-3 md:p-3.5 rounded-full shadow-2xl transition-all duration-300 flex items-center justify-center hover:scale-110 active:scale-95 relative group"
           id="whatsapp-floating-btn"
           aria-label="Contact Pekhawar Real Estate on WhatsApp"
         >
-          <svg className="w-6.5 h-6.5 fill-current" viewBox="0 0 24 24">
+          <svg className="w-5 h-5 md:w-6 md:h-6 fill-current" viewBox="0 0 24 24">
             <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.413 9.863-9.83.001-2.624-1.012-5.091-2.854-6.936-1.841-1.84-4.29-2.853-6.918-2.853-5.441 0-9.866 4.413-9.87 9.832-.001 1.777.464 3.513 1.348 5.044l-.986 3.606 3.692-.968zm11.39-7.584c-.31-.155-1.838-.908-2.126-1.01-.288-.105-.497-.155-.706.155-.21.314-.81.1.81-1.22.42-.418.105-.31-.156-.465-.262-.155-1.043-.384-1.986-1.226-.733-.655-1.229-1.464-1.373-1.719-.143-.255-.015-.393.111-.518.115-.112.263-.31.394-.465.131-.155.176-.265.263-.44.088-.175.044-.33-.021-.464-.067-.135-.5-.1.498-1.206-.484.095-.21-.314-.497-.333-.707-.02-.952.127-.131.623-1.44.864-1.83 1.306-1.83 2.508 0 .863.31 1.696.536 2.005.226.31 2.399 3.662 5.811 5.136.812.35 1.446.56 1.94.717.815.26 1.558.224 2.146.136.654-.1 1.838-.75 2.1-1.472.261-.72.261-1.34.183-1.472-.078-.13-.288-.207-.597-.362z" />
           </svg>
           <span className="absolute right-14 bg-navy-900 text-gold-300 border border-gold-500/30 text-xs font-semibold py-1 px-3 rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none hidden md:inline">
